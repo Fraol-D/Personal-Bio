@@ -2,11 +2,8 @@ import React from "react";
 import "./style.css";
 import {
   FaGithub,
-  FaTwitter,
   FaTelegram,
   FaLinkedin,
-  FaYoutube,
-  FaWhatsapp,
 } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
 
