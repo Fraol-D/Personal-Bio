@@ -3,8 +3,7 @@ import "./style.css";
 import {
   FaGithub,
   FaTelegram,
-  FaLinkedin,
-} from "react-icons/fa";
+  FaLinkedin,} from "react-icons/fa";
 import { socialprofils } from "../../content_option";
 
 export const Socialicons = (params) => {
