@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9ee66b34.css",
+    "main.js": "/static/js/main.5042e764.js",
+    "static/media/Netflix-Clone.png": "/static/media/Netflix-Clone.556c9cbf4ec2ddc1bbc3.png",
+    "static/media/Amazon-Clone.png": "/static/media/Amazon-Clone.2234a16d5728ea86b7c9.png",
+    "static/media/Apple-Clone.png": "/static/media/Apple-Clone.a38f08791935757a4fc0.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.9ee66b34.css",
+    "static/js/main.5042e764.js"
+  ]
+}
