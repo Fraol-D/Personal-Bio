@@ -50,7 +50,7 @@ export const Portfolio = () => {
         <div className="mb-5 po_items_ho">
           {dataportfolio.map((data, i) => {
             return (
-              <div
+              <div 
                 key={i}
                 className="po_item"
                 style={{ backgroundImage: `url(${data.img})` }}
