@@ -1,5 +1,3 @@
-
-
 const logotext = "FRAOL";
 const meta = {
   title: "Fraol",
@@ -17,7 +15,7 @@ const introdata = {
   description:
     "I have experience in developing web applications using React, and Node.js. I am also familiar with javascript, php, sql, and mongoDB.",
   your_img_url:
-    "https://raw.githubusercontent.com/Fraol-D/fraol-d.github.io/main/pf.jpg",
+    "https://raw.githubusercontent.com/Fraol-D/old-portfolio.github.io/main/pf.jpg",
 };
 
 const dataabout = {
