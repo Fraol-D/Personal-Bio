@@ -14,8 +14,7 @@ const introdata = {
   },
   description:
     "I have experience in developing web applications using React, and Node.js. I am also familiar with javascript, php, sql, and mongoDB.",
-  your_img_url:
-    "https://raw.githubusercontent.com/Fraol-D/old-portfolio.github.io/main/pf.jpg",
+  your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
