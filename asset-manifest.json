@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Personal-Bio/static/css/main.9ee66b34.css",
+    "main.js": "/Personal-Bio/static/js/main.5fd3dedf.js",
+    "static/media/Netflix-Clone.png": "/Personal-Bio/static/media/Netflix-Clone.556c9cbf4ec2ddc1bbc3.png",
+    "static/media/Amazon-Clone.png": "/Personal-Bio/static/media/Amazon-Clone.2234a16d5728ea86b7c9.png",
+    "static/media/Apple-Clone.png": "/Personal-Bio/static/media/Apple-Clone.a38f08791935757a4fc0.png",
+    "index.html": "/Personal-Bio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.9ee66b34.css",
+    "static/js/main.5fd3dedf.js"
+  ]
+}
