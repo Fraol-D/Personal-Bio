@@ -162,6 +162,7 @@ export const ContactUs = () => {
         </Row>
       </Container>
       <div className={formData.loading ? "loading-bar" : "d-none"}></div>
+      <br />
     </HelmetProvider>
   );
 };

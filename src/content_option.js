@@ -1,4 +1,4 @@
-import CodeOfAPIProjectImage from "./assets/img/pf.jpg";
+import CodeOfAPIProjectImage from "./assets/img/ZIO_0812.jpg";
 
 const logotext = "FRAOL";
 const meta = {
@@ -8,7 +8,7 @@ const meta = {
 };
 
 const introdata = {
-  title: "I’m Fraol Demisse",
+  title: "I’m Fraol Ashebir",
   animated: {
     first: "I love coding",
     second: "I code cool websites",
@@ -98,7 +98,7 @@ const dataportfolio = [
 
 const contactConfig = {
   YOUR_EMAIL: "fraolashebir84@gmail.com",
-  YOUR_FONE: "+251 799 48 19 94",
+  YOUR_FONE: "+251 974 07 97 48",
   description:
     "I am available for freelance work. Connect with me via email or phone.",
   // create an emailjs.com account

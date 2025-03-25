@@ -7,6 +7,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import AmazonClone from "../../assets/img/Amazon-Clone.png";
 import NetflixClone from "../../assets/img/Netflix-Clone.png";
 import AppleClone from "../../assets/img/Apple-Clone.png";
+import RentMaster from "../../assets/img/RentMaster.png";
+import IronPulse from "../../assets/img/IronPulse.jpg";
+import EcoJustice from "../../assets/img/EcoJustice5b4.jpg";
 
 const meta = {
   title: "Fraol",
@@ -15,6 +18,11 @@ const meta = {
 };
 
 const dataportfolio = [
+  {
+    img: RentMaster,
+    description: "Property Management made with React and Nodejs.",
+    link: "https://rentmaster.markethubet.com/",
+  },
   {
     img: AmazonClone,
     description: "Amazon Clone made with React, Redux, Firebase, and Stripe.",
@@ -30,6 +38,17 @@ const dataportfolio = [
     description: "Apple Clone made with React and Redux.",
     link: "https://clonapple.netlify.app/",
   },
+  
+];
+
+const datauiux = [
+  {
+    img: IronPulse,
+  },
+  {
+    img: EcoJustice,
+  }
+  
 ];
 
 export const Portfolio = () => {
@@ -50,7 +69,7 @@ export const Portfolio = () => {
         <div className="mb-5 po_items_ho">
           {dataportfolio.map((data, i) => {
             return (
-              <div 
+              <div
                 key={i}
                 className="po_item"
                 style={{ backgroundImage: `url(${data.img})` }}
@@ -63,6 +82,24 @@ export const Portfolio = () => {
             );
           })}
         </div>
+        <Row className="mb-5 mt-3 pt-md-3">
+          <Col lg="8">
+            <h1 className="display-4 mb-4"> UI/UX Design </h1>{" "}
+            <hr className="t_border my-4 ml-0 text-left" />
+          </Col>
+        </Row>
+        <div className="mb-5 po_items_ho">
+          {datauiux.map((data, i) => {
+            return (
+              <div
+                key={i}
+                className="po_item"
+                style={{ backgroundImage: `url(${data.img})` }}
+              ></div>
+            );
+          })}
+        </div>
+        <br />
       </Container>
     </HelmetProvider>
   );
